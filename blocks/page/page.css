@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../../..//Inter-Desktop/Inter-Italic.otf);
+    font-weight: normal;
+}
 .page{
+    font-family: 'Inter';
+    color: white;
     background-color: #2A2C2F;
 }
