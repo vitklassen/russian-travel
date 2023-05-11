@@ -1,16 +1,8 @@
 .header{
     max-width: 1184px;
-    max-height: 52px;
     display: flex;
     justify-content: space-between; 
-}
-@media screen and (max-width: 1024px) {
-    .header{
-        max-width: 928px;
-    }
-    .logo{
-        
-    }
+    margin: 28px 48px 56px 48px;
 }
 .logo{
     max-width: 176px;
@@ -34,4 +26,7 @@
 }
 .header__lang-link_language_ru{
     padding-right: 18px;
+}
+.header__lang-link_language_en{
+    text-decoration: none;
 }

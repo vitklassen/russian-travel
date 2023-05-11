@@ -1,0 +1,46 @@
+.lead{
+    max-width: 984px;
+    max-height: 1005px;
+    margin: 0px 148px 92px 148px;
+    display: flex;
+    flex-direction: column;
+}
+.lead__title{
+    max-width: 720px;
+    max-height: 200px;
+    margin: 0px 132px 32px 132px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.lead__subtitle{
+    /*max-width: 640px;
+    max-height: 72px;*/
+    color: #FFFFFF;
+    margin: 0px 172px 64px 172px;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.lead__lead-polka{
+    width: 100%;
+    max-height: 615px;
+    margin: 0;
+}
+.lead__caption{
+    margin: 8px 0px 0px 0px;
+    color: #FFFFFF; 
+    font-family: 'Inter';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
