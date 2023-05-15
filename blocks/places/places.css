@@ -1,0 +1,22 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.places__container {
+    max-width: 1280px;
+    padding: 92px 148px 0 148px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.places__place {
+    max-width: 984px;
+    max-height: 584px;
+    box-sizing: border-box;
+}
+.places__place:nth-child(1) {
+    max-height: 660px;
+}
+.places__place:nth-child(4) {
+    max-height: 660px;
+}
