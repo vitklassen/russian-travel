@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Inter';
+    color: white;
 }
 .intro__container {
     max-width: 1280px;

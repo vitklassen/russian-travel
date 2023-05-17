@@ -1,6 +1,8 @@
 .places {
     display: flex;
     flex-direction: column;
+    font-family: 'Inter';
+    color: white;
     gap: 80px;
 }
 .places__container {
@@ -11,22 +13,16 @@
 }
 .places__place {
     display: grid;
-    grid-template-rows: max-content 460px;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     row-gap: 48px;
     column-gap: 40px;
-    max-width: 984px;
-    max-height: 584px;
     box-sizing: border-box;
-}
-.places__place_size_max {
-    max-height: 660px;
 }
 .places__title {
     margin: 0;
     padding: 0;
     max-width: 460px;
-    font-family: 'Inter';
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
@@ -41,7 +37,6 @@
     margin: 0;
     padding: 0;
     color: #AAAAAA;
-    font-family: 'Inter';
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
@@ -51,7 +46,6 @@
     margin: 0;
     padding: 0;
     color: white;
-    font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -72,7 +66,6 @@
 .places__text {
     margin: 0;
     padding: 0;
-    font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
