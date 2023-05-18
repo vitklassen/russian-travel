@@ -31,12 +31,12 @@
 .header__lang-link_language_en {
     text-decoration: none;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
     .header {
         max-width: 90.625%;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .header {
         max-width: 93.75%;
     }

@@ -4,10 +4,8 @@
     justify-content: space-between;
     font-family: 'Inter';
     color: white;
-}
-.intro__container {
-    max-width: 1280px;
-    padding: 92px 442px 0 148px;
+    max-width: 984px;
+    padding: 92px 294px 0 0;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -41,4 +39,37 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
+}
+@media screen and (max-width: 1200px) {
+    .intro {
+        max-width: 928px;
+        padding-right: 238px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .intro {
+        max-width: 720px;
+        padding-top: 88px;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .intro {
+        max-width: 288px;
+        padding-top: 64px;
+        padding-right: 0;
+    }
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .intro__text {
+        font-size: 16px;
+        line-height: 163%;
+        margin-bottom: 34px;
+    }
+    .intro__list {
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
