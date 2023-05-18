@@ -1,9 +1,9 @@
 .header {
     display: flex;
     justify-content: space-between;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
-    max-width: 92.5%;
+    max-width: 1184px;
     margin: 0 auto;
     padding-top: 28px;
     box-sizing: border-box;

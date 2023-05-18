@@ -1,4 +1,6 @@
 .header__lang-links {
     display: flex;
-    justify-content: space-between;
+}
+.header__lang-links :first-child {
+    padding-right: 18px;
 }

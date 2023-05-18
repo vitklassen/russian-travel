@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     color: white;
     max-width: 984px;
     padding: 92px 294px 0 0;
@@ -26,6 +26,5 @@
     .intro {
         max-width: 288px;
         padding-top: 64px;
-        padding-right: 0;
     }
 }

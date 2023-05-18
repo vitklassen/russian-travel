@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     display: flex;
     text-align: center;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     color: white;
     max-width: 1184px;
     aspect-ratio: 1184/740;
