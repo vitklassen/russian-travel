@@ -7,8 +7,6 @@
     text-align: center;
     font-family: 'Inter';
     color: white;
-}
-.cover__container {
     max-width: 1184px;
     aspect-ratio: 1184/740;
     margin: 92px auto 0 auto;
@@ -52,6 +50,9 @@
     z-index: 1;
 }
 @media screen and (max-width: 576px) {
+    .cover {
+        margin-top: 66px;
+    }
     .cover__title {
         max-width: 288px;
         font-size: 32px;

@@ -9,46 +9,6 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-.places__place {
-    display: grid;
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
-    row-gap: 48px;
-    column-gap: 40px;
-    box-sizing: border-box;
-}
-.places__title {
-    margin: 0;
-    padding: 0;
-    max-width: 460px;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-}
-.places__website {
-   display: flex;
-   align-self: end;
-   flex-direction: column;
-   gap: 12px;
-}
-.places__url-heading {
-    margin: 0;
-    padding: 0;
-    color: #AAAAAA;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    text-align: left;
-}
-.places__link {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: left;
-}
 .places__image {
     max-width: 460px;
     aspect-ratio: 1/1;
@@ -75,12 +35,6 @@
     .places {
         max-width: 928px;
     }
-    .places__place {
-        column-gap: 32px;
-    }
-    .places__title {
-        max-width: 440px;
-    }
     .places__image {
         max-width: 440px;
     }
@@ -93,14 +47,6 @@
         max-width: 720px;
         padding-top: 88px;
         gap: 73px;
-    }
-    .places__place {
-        column-gap: 28px;
-    }
-    .places__title {
-        max-width: 340px;
-        font-size: 42px;
-        line-height: 46px;
     }
     .places__image {
         max-width: 340px;
@@ -117,18 +63,6 @@
         padding-top: 64px;
         gap: 50px;
     }
-    .places__place {
-        row-gap: 32px;
-        column-gap: 0;
-        grid-template-rows: repeat(4, minmax(min-content, max-content));
-        grid-template-columns: max-content;
-    }
-    .places__title {
-        max-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-        padding-left: 16px;
-    }
     .places__image {
         max-width: 320px;
     }
@@ -140,7 +74,4 @@
         font-size: 16px;
         line-height: 163%;
     }
-    .places__website {
-        padding-left: 16px;
-     }
 }
